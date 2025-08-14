@@ -11,6 +11,7 @@ public class Fibonacci {
 
         while(count<=n){
           int temp = b;
+
           b = a+b;
           a = temp;
           count++;
